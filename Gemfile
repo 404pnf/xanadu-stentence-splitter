@@ -3,8 +3,6 @@ source "http://ruby.taobao.org/"
 gem 'sinatra'
 gem 'punkt-segmenter'
 gem 'sinatra-jsonp'
-gem 'json'
-gem 'pp'
 gem 'kramdown'
 
 # group :test do
