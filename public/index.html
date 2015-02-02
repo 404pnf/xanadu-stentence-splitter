@@ -1,0 +1,38 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!-- 新 Bootstrap 核心 CSS 文件 -->
+  <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+  <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+  <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+  <script src="http://cdn.bootcss.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row">
+
+    <h1> 贴点儿英文试用一下 </h1>
+    <form id="sentence" role="form">
+      <div class="form-group">
+        <textarea id="data" class="form-control" rows="5"></textarea>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+    <h2>拆句后的结果</h2>
+    <div id="sentence_text">text</div>
+    <h2>拆成单词</h2>
+    <div id="sentence_token">token</div>
+    <h2>找出所有词词根并做统计 comming soon</h2>
+    <div id="word_frequency">frequency</div>
+
+  </div>
+
+</div>
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+<script src="http://libs.baidu.com/underscore/1.3.3/underscore-min.js"></script>
+<script src="/js/xanadu.js"></script>
+</body>
