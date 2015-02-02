@@ -14,13 +14,13 @@
       .done(function (d) {
         console.log(d);
         var r = prettyPrint(d);
-        $('#sentence_text').html('<code>' + r + '</code>');
+        $('#sentence_text').html('<div>' + r + '</div>');
       });
 
     $.post('/sentence_token', {data: data})
       .done(function (d) {
         console.log(d)
-        $('#sentence_token').html(d);
+        $('#sentence_token').html(prettyPrint(d));
       });
 
     $.post('/word_frequency', {data: data})
